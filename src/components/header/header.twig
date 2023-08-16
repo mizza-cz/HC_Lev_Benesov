@@ -1,0 +1,171 @@
+<header class="header">
+  <div class="header-gradient"></div>
+  <div class="container">
+    <div class="header__inner">
+      <nav class="navbar navbar-expand-lg">
+        <a class="header__logo" href="">
+          <img
+            width="140"
+            height="140"
+            src="images/ico/log.svg"
+            loading="lazy"
+            alt="logo"
+          />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <form class="header__form">
+            <div class="header__input">
+              <input type="text" />
+            </div>
+            <button>
+              <img src="images/ico/search.svg" loading="lazy" alt="search" />
+            </button>
+          </form>
+          <ul class="navbar-nav navbar-nav--left">
+            {% include "@components/social/social.twig" %}
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="klub"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Klub
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="klub">
+                <li><a class="dropdown-item" href="#">Informace o klubu</a></li>
+                <li><a class="dropdown-item" href="#">Kontakty</a></li>
+                <li><a class="dropdown-item" href="#">Historie</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="partners"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Partneři
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="partners">
+                <li><a class="dropdown-item" href="#">Hlavní Partneři</a></li>
+                <li><a class="dropdown-item" href="#">Gold Partneři</a></li>
+                <li><a class="dropdown-item" href="#">Silver Partneři</a></li>
+                <li><a class="dropdown-item" href="#">Mediální Partneři</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="a-tym"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                A-tým
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="a-tym">
+                <li><a class="dropdown-item" href="#">Soupiska</a></li>
+                <li><a class="dropdown-item" href="#">Statistiky</a></li>
+                <li><a class="dropdown-item" href="#">Realizační tým</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="zapasy"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Zápasy
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="zapasy">
+                <li><a class="dropdown-item" href="#">Zápasy</a></li>
+                <li><a class="dropdown-item" href="#">Tabulka</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="navbar-nav__logo">
+            <a class="header__logo" href="">
+              <img src="images/ico/log.svg" loading="lazy" alt="logo" />
+            </a>
+          </div>
+          <ul class="navbar-nav navbar-nav--right">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="vstupenky"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Vstupenky
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="vstupenky">
+                <li><a class="dropdown-item" href="#">Vstupenky</a></li>
+                <li><a class="dropdown-item" href="#">Permanentky</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Fanshop </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="media"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Multimedia
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="media">
+                <li><a class="dropdown-item" href="#">fotogalerie</a></li>
+                <li><a class="dropdown-item" href="#">Videa</a></li>
+                <li><a class="dropdown-item" href="#">Archiv</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="stadion"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Stadion
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="stadion">
+                <li><a class="dropdown-item" href="#">Historie</a></li>
+                <li><a class="dropdown-item" href="#">Ptejte se</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="social-mob">
+            {% include "@components/social/social.twig" %}
+          </div>
+        </div>
+        <div class="header__search">
+          <a href="#" class="header__search-img">
+            <img src="images/ico/search.svg" loading="lazy" alt="search" />
+          </a>
+        </div>
+        <button class="c-header__opener js-header__opener" type="button">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>

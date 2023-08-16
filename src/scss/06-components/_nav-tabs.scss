@@ -1,0 +1,42 @@
+.nav-tabs {
+  display: flex;
+  align-items: center;
+  border: none;
+  
+  li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  li:last-child a {
+    border-radius: 0px 4px 4px 0px;
+  }
+  a {
+    color: var(--color-light);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+    background-color: var(--color-blue-180);
+    padding: 6px 16px 8px;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      background-color: var(--color-yellow);
+      color: var(--color-dark);
+    }
+  }
+  .active {
+    background-color: var(--color-yellow);
+    color: var(--color-dark);
+    &:hover {
+      background-color: var(--color-yellow);
+      color: var(--color-dark);
+    }
+  }
+}
+
+.tab-title {
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 24px;
+  color: var(--color-light);
+}

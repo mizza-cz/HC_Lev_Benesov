@@ -1,0 +1,21 @@
+{% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
+block main %} {% include "@components/scoreboard/scoreboard.twig" %}
+<div class="pubs mb-8">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <a href="#">
+          <img src="images/content/tipsport.png" loading="lazy" alt="pub" />
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="#">
+          <img src="images/content/tipsport.png" loading="lazy" alt="pub" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% include "@components/hp-board/hp-board.twig" %} {% include
+"@components/juniors/juniors.twig" %} {% include
+"@components/partners-slider/partners-slider.twig" %} {% endblock %}

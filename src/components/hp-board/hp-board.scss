@@ -1,0 +1,50 @@
+.hp-board__table {
+  color: var(--color-light);
+  .h2 {
+    color: var(--color-blue-20);
+    span {
+      font-weight: 400;
+    }
+  }
+  td {
+    color: var(--color-light);
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue-140);
+  }
+  .num {
+    width: 30px;
+    text-align: left;
+  }
+  .team {
+    text-align: left;
+    white-space: nowrap;
+  }
+  .logo {
+    text-align: left;
+    width: 50px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    img {
+      height: 28px;
+      max-width: 26px;
+      width: 26px;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+  }
+}
+.hp-board {
+  margin-bottom: 56px;
+  @include media-breakpoint-down(xl) {
+    margin-bottom: 40px;
+  }
+}
+.lev td {
+  font-weight: 600;
+}

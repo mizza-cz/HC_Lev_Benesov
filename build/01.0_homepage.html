@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+	<meta charset="utf-8" />
+	<title>01.0_homepage - HC Lev Benešov</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet" />
+
+	<link rel="preload" href="css/styles.css" as="style" />
+	<link rel="stylesheet" media="screen, handheld" href="css/styles.css" />
+	<link rel="stylesheet" media="print" href="css/prints.css" />
+	<link rel="preload" href="https://code.jquery.com/jquery-3.6.0.min.js" as="script" crossorigin />
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" as="script" crossorigin />
+	<link rel="preload" href="js/scripts.js" as="script" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+	<link rel="manifest" href="favicon/site.webmanifest" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+	<div class="base">
+		<header class="header">
+			<div class="header-gradient"></div>
+			<div class="container">
+				<div class="header__inner">
+					<nav class="navbar navbar-expand-lg">
+						<a class="header__logo" href="">
+							<img width="140" height="140" src="images/ico/log.svg" loading="lazy" alt="logo" />
+						</a>
+
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<form class="header__form">
+								<div class="header__input">
+									<input type="text" />
+								</div>
+								<button>
+									<img src="images/ico/search.svg" loading="lazy" alt="search" />
+								</button>
+							</form>
+							<ul class="navbar-nav navbar-nav--left">
+								<ul class="social">
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M21.8 7.973s-.196-1.388-.795-2c-.76-.802-1.613-.806-2.004-.852-2.799-.204-6.997-.204-6.997-.204h-.008s-4.199 0-6.997.204c-.391.046-1.243.05-2.005.852-.599.612-.794 2-.794 2s-.2 1.63-.2 3.26v1.528c0 1.63.2 3.26.2 3.26s.195 1.387.794 1.999c.762.802 1.761.777 2.206.86 1.6.155 6.8.203 6.8.203s4.203-.006 7.001-.21c.39-.047 1.243-.05 2.004-.853.6-.612.795-2 .795-2s.2-1.63.2-3.26v-1.528c0-1.63-.2-3.26-.2-3.26zm-11.865 6.64v-5.66l5.403 2.84-5.403 2.82z" fill="#FDD715" />
+												</g>
+											</svg> </a>
+									</li>
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M12.683 22h-9.58C2.495 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104H15.8v-7.745h2.6l.389-3.019h-2.99V9.31c0-.874.243-1.469 1.496-1.469h1.599v-2.7a21.389 21.389 0 00-2.33-.12c-2.304 0-3.882 1.407-3.882 3.99v2.227h-2.606v3.018h2.607V22z" fill="#FDD715" />
+												</g>
+											</svg> </a>
+									</li>
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<defs>
+													<radialGradient cx="14.93%" cy="100.35%" fx="14.93%" fy="100.35%" r="127.77%" id="a">
+														<stop stop-color="#FDD715" offset="0%" />
+														<stop stop-color="#FDD715" offset="25.59%" />
+														<stop stop-color="#FDD715" offset="59.9%" />
+														<stop stop-color="#FDD715" offset="100%" />
+													</radialGradient>
+												</defs>
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M16.538 4.662a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0zM10 13.333a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm0-8.468a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0-3.063c2.67 0 2.986.01 4.04.058.976.045 1.505.207 1.858.345.466.18.8.398 1.15.748.35.35.566.683.748 1.15.137.352.3.881.344 1.856.048 1.055.058 1.371.058 4.041 0 2.67-.01 2.987-.058 4.041-.045.975-.207 1.505-.344 1.857-.182.467-.398.8-.748 1.15-.35.35-.683.567-1.15.748-.353.137-.882.3-1.857.344-1.055.048-1.37.059-4.041.059-2.67 0-2.987-.01-4.04-.059-.976-.044-1.505-.207-1.858-.344a3.099 3.099 0 01-1.15-.748 3.098 3.098 0 01-.748-1.15c-.137-.352-.3-.882-.344-1.857-.048-1.054-.058-1.37-.058-4.04s.01-2.987.058-4.042c.044-.975.207-1.504.344-1.856.182-.467.398-.8.748-1.15.35-.35.683-.567 1.15-.748.353-.137.882-.3 1.857-.345 1.055-.048 1.37-.058 4.041-.058zM10 0C7.284 0 6.944.012 5.877.06 4.813.11 4.086.278 3.45.525a4.9 4.9 0 00-1.772 1.153A4.9 4.9 0 00.525 3.45C.278 4.086.109 4.813.06 5.877.012 6.944 0 7.284 0 10s.012 3.056.06 4.123c.049 1.064.218 1.791.465 2.427a4.9 4.9 0 001.153 1.772 4.902 4.902 0 001.772 1.153c.636.247 1.363.416 2.427.465 1.067.048 1.407.06 4.123.06s3.056-.012 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.902 4.902 0 001.772-1.153 4.902 4.902 0 001.153-1.772c.247-.636.416-1.363.465-2.427.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.049-1.064-.218-1.791-.465-2.427a4.902 4.902 0 00-1.153-1.772A4.902 4.902 0 0016.55.525C15.914.278 15.187.109 14.123.06 13.056.012 12.716 0 10 0z" fill="url(#a)" transform="translate(2 2)" />
+												</g>
+											</svg> </a>
+									</li>
+								</ul>
+
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="klub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Klub
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="klub">
+										<li><a class="dropdown-item" href="#">Informace o klubu</a></li>
+										<li><a class="dropdown-item" href="#">Kontakty</a></li>
+										<li><a class="dropdown-item" href="#">Historie</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="partners" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Partneři
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="partners">
+										<li><a class="dropdown-item" href="#">Hlavní Partneři</a></li>
+										<li><a class="dropdown-item" href="#">Gold Partneři</a></li>
+										<li><a class="dropdown-item" href="#">Silver Partneři</a></li>
+										<li><a class="dropdown-item" href="#">Mediální Partneři</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="a-tym" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										A-tým
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="a-tym">
+										<li><a class="dropdown-item" href="#">Soupiska</a></li>
+										<li><a class="dropdown-item" href="#">Statistiky</a></li>
+										<li><a class="dropdown-item" href="#">Realizační tým</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="zapasy" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Zápasy
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="zapasy">
+										<li><a class="dropdown-item" href="#">Zápasy</a></li>
+										<li><a class="dropdown-item" href="#">Tabulka</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="navbar-nav__logo">
+								<a class="header__logo" href="">
+									<img src="images/ico/log.svg" loading="lazy" alt="logo" />
+								</a>
+							</div>
+							<ul class="navbar-nav navbar-nav--right">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="vstupenky" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Vstupenky
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="vstupenky">
+										<li><a class="dropdown-item" href="#">Vstupenky</a></li>
+										<li><a class="dropdown-item" href="#">Permanentky</a></li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"> Fanshop </a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="media" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Multimedia
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="media">
+										<li><a class="dropdown-item" href="#">fotogalerie</a></li>
+										<li><a class="dropdown-item" href="#">Videa</a></li>
+										<li><a class="dropdown-item" href="#">Archiv</a></li>
+									</ul>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="stadion" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Stadion
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="stadion">
+										<li><a class="dropdown-item" href="#">Historie</a></li>
+										<li><a class="dropdown-item" href="#">Ptejte se</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="social-mob">
+								<ul class="social">
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M21.8 7.973s-.196-1.388-.795-2c-.76-.802-1.613-.806-2.004-.852-2.799-.204-6.997-.204-6.997-.204h-.008s-4.199 0-6.997.204c-.391.046-1.243.05-2.005.852-.599.612-.794 2-.794 2s-.2 1.63-.2 3.26v1.528c0 1.63.2 3.26.2 3.26s.195 1.387.794 1.999c.762.802 1.761.777 2.206.86 1.6.155 6.8.203 6.8.203s4.203-.006 7.001-.21c.39-.047 1.243-.05 2.004-.853.6-.612.795-2 .795-2s.2-1.63.2-3.26v-1.528c0-1.63-.2-3.26-.2-3.26zm-11.865 6.64v-5.66l5.403 2.84-5.403 2.82z" fill="#FDD715" />
+												</g>
+											</svg> </a>
+									</li>
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M12.683 22h-9.58C2.495 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104H15.8v-7.745h2.6l.389-3.019h-2.99V9.31c0-.874.243-1.469 1.496-1.469h1.599v-2.7a21.389 21.389 0 00-2.33-.12c-2.304 0-3.882 1.407-3.882 3.99v2.227h-2.606v3.018h2.607V22z" fill="#FDD715" />
+												</g>
+											</svg> </a>
+									</li>
+									<li class="social__item">
+										<a target="_blank" class="social__link" href="#">
+											<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+												<defs>
+													<radialGradient cx="14.93%" cy="100.35%" fx="14.93%" fy="100.35%" r="127.77%" id="a">
+														<stop stop-color="#FDD715" offset="0%" />
+														<stop stop-color="#FDD715" offset="25.59%" />
+														<stop stop-color="#FDD715" offset="59.9%" />
+														<stop stop-color="#FDD715" offset="100%" />
+													</radialGradient>
+												</defs>
+												<g fill="none" fill-rule="evenodd">
+													<path d="M2 2h20v20H2z" />
+													<path d="M16.538 4.662a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0zM10 13.333a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm0-8.468a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0-3.063c2.67 0 2.986.01 4.04.058.976.045 1.505.207 1.858.345.466.18.8.398 1.15.748.35.35.566.683.748 1.15.137.352.3.881.344 1.856.048 1.055.058 1.371.058 4.041 0 2.67-.01 2.987-.058 4.041-.045.975-.207 1.505-.344 1.857-.182.467-.398.8-.748 1.15-.35.35-.683.567-1.15.748-.353.137-.882.3-1.857.344-1.055.048-1.37.059-4.041.059-2.67 0-2.987-.01-4.04-.059-.976-.044-1.505-.207-1.858-.344a3.099 3.099 0 01-1.15-.748 3.098 3.098 0 01-.748-1.15c-.137-.352-.3-.882-.344-1.857-.048-1.054-.058-1.37-.058-4.04s.01-2.987.058-4.042c.044-.975.207-1.504.344-1.856.182-.467.398-.8.748-1.15.35-.35.683-.567 1.15-.748.353-.137.882-.3 1.857-.345 1.055-.048 1.37-.058 4.041-.058zM10 0C7.284 0 6.944.012 5.877.06 4.813.11 4.086.278 3.45.525a4.9 4.9 0 00-1.772 1.153A4.9 4.9 0 00.525 3.45C.278 4.086.109 4.813.06 5.877.012 6.944 0 7.284 0 10s.012 3.056.06 4.123c.049 1.064.218 1.791.465 2.427a4.9 4.9 0 001.153 1.772 4.902 4.902 0 001.772 1.153c.636.247 1.363.416 2.427.465 1.067.048 1.407.06 4.123.06s3.056-.012 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.902 4.902 0 001.772-1.153 4.902 4.902 0 001.153-1.772c.247-.636.416-1.363.465-2.427.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.049-1.064-.218-1.791-.465-2.427a4.902 4.902 0 00-1.153-1.772A4.902 4.902 0 0016.55.525C15.914.278 15.187.109 14.123.06 13.056.012 12.716 0 10 0z" fill="url(#a)" transform="translate(2 2)" />
+												</g>
+											</svg> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header__search">
+							<a href="#" class="header__search-img">
+								<img src="images/ico/search.svg" loading="lazy" alt="search" />
+							</a>
+						</div>
+						<button class="c-header__opener js-header__opener" type="button">
+							<span></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main" aria-label="Hlavní obsah">
+			<section class="scoreboard">
+				<div class="container">
+					<div class="scoreboard__wrapper">
+						<div class="scoreboard__header">
+							<h2 class="h2">Zápasy</h2>
+							<a href="#" class="link link--dark">Všechny zápasy</a>
+						</div>
+						<div class="scoreboard__inner d-flex flex-grow-1 js-scoreboard">
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/1.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result win"> 4:3 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Report utkání</a>
+											</li>
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/3.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Preview</a>
+											</li>
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/2.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/1.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result win"> 4:3 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Report utkání</a>
+											</li>
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/3.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Preview</a>
+											</li>
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="scoreboard__box">
+								<div class="scoreboard__item">
+									<div class="scoreboard__img">
+										<img src="images/content/club/2.png" loading="lazy" alt="logo" />
+									</div>
+									<div class="scoreboard__content">
+										<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+										<div class="scoreboard__info">
+											<div class="scoreboard__team">
+												<span> HC Lev Benešov </span>
+												<span>HC Spartak Žebrák</span>
+											</div>
+											<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+										</div>
+										<ul class="scoreboard__links">
+											<li>
+												<a href="#" class="link link--blue">Onlajn</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="pubs mb-8">
+				<div class="container">
+					<div class="row g-5">
+						<div class="col-lg-6">
+							<a href="#">
+								<img src="images/content/tipsport.png" loading="lazy" alt="pub" />
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="#">
+								<img src="images/content/tipsport.png" loading="lazy" alt="pub" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="hp-board">
+				<div class="container">
+					<div class="row g-10">
+						<div class="col-xl-8">
+							<div class="row gx-5 gy-10 mb-9">
+								<div class="col-md-6">
+									<a href="#" class="post">
+										<div class="post__img">
+											<img src="images/content/g3.png" loading="lazy" alt="logo" />
+											<span class="link link--yellow"> Muži </span>
+										</div>
+										<div class="post__date">14. 10. 2023, 17:30</div>
+										<h3>Věřím, že zůstaneme pohromadě, přeje si kapitán David Starec</h3>
+									</a>
+								</div>
+								<div class="col-md-6"><a href="#" class="post">
+										<div class="post__img">
+											<img src="images/content/g1.png" loading="lazy" alt="logo" />
+											<span class="link link--yellow"> Rozhovory </span>
+										</div>
+										<div class="post__date">14. 10. 2023, 17:30</div>
+										<h3>Věřím, že zůstaneme pohromadě, přeje si kapitán David Starec</h3>
+									</a>
+								</div>
+								<div class="col-md-6"><a href="#" class="post">
+										<div class="post__img">
+											<img src="images/content/g1.png" loading="lazy" alt="logo" />
+											<span class="link link--yellow"> Rozhovory </span>
+										</div>
+										<div class="post__date">14. 10. 2023, 17:30</div>
+										<h3>Věřím, že zůstaneme pohromadě, přeje si kapitán David Starec</h3>
+									</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="post">
+										<div class="post__img">
+											<img src="images/content/g2.png" loading="lazy" alt="logo" />
+											<span class="link link--yellow"> Mládež </span>
+										</div>
+										<div class="post__date">14. 10. 2023, 17:30</div>
+										<h3>Věřím, že zůstaneme pohromadě, přeje si kapitán David Starec</h3>
+									</a>
+								</div>
+							</div>
+							<a href="#" class="link link--yellow m-auto">Archiv článků</a>
+						</div>
+						<div class="col-xl-4">
+							<div class="hp-board__table mb-6">
+								<h4 class="h2 mb-xl-8 mb-6">Tabulka ligy <span>po 24.kole</span></h4>
+								<div class="o-content">
+									<table>
+										<tbody>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/3.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/logo-2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/2.png" alt="" />
+												</td>
+												<td class="team"><a href="#">Slovan Bratislava</a></td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/3.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/logo-2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/2.png" alt="" />
+												</td>
+												<td class="team"><a href="#">Slovan Bratislava</a></td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/3.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/logo-2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/2.png" alt="" />
+												</td>
+												<td class="team"><a href="#">Slovan Bratislava</a></td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/3.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">12.</td>
+												<td class="logo">
+													<img src="images/content/club/logo-2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/3.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+											<tr>
+												<td class="num">1.</td>
+												<td class="logo">
+													<img src="images/content/club/logo-2.png" alt="" />
+												</td>
+												<td class="team">Slovan Bratislava</td>
+												<td style="width: 50px">24</td>
+												<td style="width: 80px">29:41</td>
+												<td style="width: 50px">55</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<a href="#" class="link link--yellow m-xl-0 m-auto">Kompletní tabulka</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="juniors">
+				<div class="container">
+					<div class="juniors__wrapper">
+						<div class="juniors__header">
+							<h5 class="h2">Mládež</h5>
+							<ul class="nav nav-tabs row g-1">
+								<li class="col-auto">
+									<a data-toggle="tab" class="active" href="#jun"> Junioři </a>
+								</li>
+								<li class="col-auto">
+									<a data-toggle="tab" href="#dorost"> Dorost </a>
+								</li>
+
+								<li class="col-auto">
+									<a data-toggle="tab" href="#starsi"> Starší žáci </a>
+								</li>
+								<li class="col-auto">
+									<a data-toggle="tab" href="#mladsi"> Mladší žáci </a>
+								</li>
+								<li class="col-auto">
+									<a data-toggle="tab" href="#trida"> 4. 3. a 2. třída </a>
+								</li>
+							</ul>
+							<a href="#" class="link link--dark">Všechny informace</a>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane is active" id="jun">
+								<div class="row g-10">
+									<div class="col-xl-4">
+										<h6 class="tab-title mb-6">Zápasy</h6>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/1.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result win"> 4:3 </a>
+												</div>
+											</div>
+										</div>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/3.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Tabulky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/ico/log.svg" alt="" />
+															</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Statistiky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>4</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>13</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td>68</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="dorost">2</div>
+							<div class="tab-pane fade" id="starsi">3</div>
+							<div class="tab-pane fade" id="mladsi">
+								<div class="row g-10">
+									<div class="col-xl-4">
+										<h6 class="tab-title mb-6">Zápasy</h6>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/1.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result win"> 4:3 </a>
+												</div>
+											</div>
+										</div>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/3.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Tabulky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/ico/log.svg" alt="" />
+															</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Statistiky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>4</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>13</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td>68</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="trida">
+								<div class="row g-10">
+									<div class="col-xl-4">
+										<h6 class="tab-title mb-6">Zápasy</h6>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/2.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result lose"> 4:3 </a>
+												</div>
+											</div>
+										</div>
+										<div class="scoreboard__item">
+											<div class="scoreboard__img">
+												<img src="images/content/club/3.png" loading="lazy" alt="logo" />
+											</div>
+											<div class="scoreboard__content">
+												<div class="scoreboard__date">19. KOLO, Krajská liga</div>
+												<div class="scoreboard__info">
+													<div class="scoreboard__team">
+														<span> HC Lev Benešov </span>
+														<span>HC Spartak Žebrák</span>
+													</div>
+													<a href="#" class="scoreboard__result"> so 15. 4. 16:30 </a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Tabulky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/ico/log.svg" alt="" />
+															</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/3.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td class="logo">
+																<img src="images/content/club/logo-2.png" alt="" />
+															</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4">
+										<div class="hp-board__table">
+											<h6 class="tab-title mb-6">Statistiky</h6>
+											<div class="o-content">
+												<table>
+													<tbody>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>4</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>13</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr class="lev">
+															<td class="num">1.</td>
+															<td>68</td>
+															<td class="team"><a href="#">HC Lev Benešov</a></td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+														<tr>
+															<td class="num">1.</td>
+															<td>37</td>
+															<td class="team">Slovan Bratislava</td>
+															<td style="width: 50px">24</td>
+															<td style="width: 80px">29:41</td>
+															<td style="width: 50px">55</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="partners-slider">
+				<div class="container">
+					<div class="row justify-content-center align-items-center partners-slider__inner">
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-1.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-2.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-3.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-4.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-5.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-6.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-1.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-2.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-3.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-4.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-5.png" loading="lazy" alt="" />
+							</a>
+						</div>
+						<div class="col-12 col-md-3 text-center">
+							<a class="partners-slider__item" href="#">
+								<img src="images/content/partner-6.png" loading="lazy" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<a class="footer__logo" href="#">
+						<img src="images/ico/log.svg" loading="lazy" alt="logo" /></a>
+
+					<ul class="footer__nav">
+						<li>
+							<a href="#">Klub</a>
+						</li>
+						<li>
+							<a href="#">a - tým</a>
+						</li>
+						<li>
+							<a href="#">B - tým</a>
+						</li>
+						<li>
+							<a href="#">Ženy</a>
+						</li>
+						<li>
+							<a href="#">Mládež</a>
+						</li>
+						<li>
+							<a href="#">E - Sport</a>
+						</li>
+						<li>
+							<a href="#">Partneři</a>
+						</li>
+						<li>
+							<a href="#">Vstupenky</a>
+						</li>
+						<li>
+							<a href="#">Fanoušci</a>
+						</li>
+					</ul>
+					<div class="footer__bottom">
+						<ul class="social">
+							<li class="social__item">
+								<a target="_blank" class="social__link" href="#">
+									<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<g fill="none" fill-rule="evenodd">
+											<path d="M2 2h20v20H2z" />
+											<path d="M21.8 7.973s-.196-1.388-.795-2c-.76-.802-1.613-.806-2.004-.852-2.799-.204-6.997-.204-6.997-.204h-.008s-4.199 0-6.997.204c-.391.046-1.243.05-2.005.852-.599.612-.794 2-.794 2s-.2 1.63-.2 3.26v1.528c0 1.63.2 3.26.2 3.26s.195 1.387.794 1.999c.762.802 1.761.777 2.206.86 1.6.155 6.8.203 6.8.203s4.203-.006 7.001-.21c.39-.047 1.243-.05 2.004-.853.6-.612.795-2 .795-2s.2-1.63.2-3.26v-1.528c0-1.63-.2-3.26-.2-3.26zm-11.865 6.64v-5.66l5.403 2.84-5.403 2.82z" fill="#FDD715" />
+										</g>
+									</svg> </a>
+							</li>
+							<li class="social__item">
+								<a target="_blank" class="social__link" href="#">
+									<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<g fill="none" fill-rule="evenodd">
+											<path d="M2 2h20v20H2z" />
+											<path d="M12.683 22h-9.58C2.495 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104H15.8v-7.745h2.6l.389-3.019h-2.99V9.31c0-.874.243-1.469 1.496-1.469h1.599v-2.7a21.389 21.389 0 00-2.33-.12c-2.304 0-3.882 1.407-3.882 3.99v2.227h-2.606v3.018h2.607V22z" fill="#FDD715" />
+										</g>
+									</svg> </a>
+							</li>
+							<li class="social__item">
+								<a target="_blank" class="social__link" href="#">
+									<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<defs>
+											<radialGradient cx="14.93%" cy="100.35%" fx="14.93%" fy="100.35%" r="127.77%" id="a">
+												<stop stop-color="#FDD715" offset="0%" />
+												<stop stop-color="#FDD715" offset="25.59%" />
+												<stop stop-color="#FDD715" offset="59.9%" />
+												<stop stop-color="#FDD715" offset="100%" />
+											</radialGradient>
+										</defs>
+										<g fill="none" fill-rule="evenodd">
+											<path d="M2 2h20v20H2z" />
+											<path d="M16.538 4.662a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0zM10 13.333a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm0-8.468a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0-3.063c2.67 0 2.986.01 4.04.058.976.045 1.505.207 1.858.345.466.18.8.398 1.15.748.35.35.566.683.748 1.15.137.352.3.881.344 1.856.048 1.055.058 1.371.058 4.041 0 2.67-.01 2.987-.058 4.041-.045.975-.207 1.505-.344 1.857-.182.467-.398.8-.748 1.15-.35.35-.683.567-1.15.748-.353.137-.882.3-1.857.344-1.055.048-1.37.059-4.041.059-2.67 0-2.987-.01-4.04-.059-.976-.044-1.505-.207-1.858-.344a3.099 3.099 0 01-1.15-.748 3.098 3.098 0 01-.748-1.15c-.137-.352-.3-.882-.344-1.857-.048-1.054-.058-1.37-.058-4.04s.01-2.987.058-4.042c.044-.975.207-1.504.344-1.856.182-.467.398-.8.748-1.15.35-.35.683-.567 1.15-.748.353-.137.882-.3 1.857-.345 1.055-.048 1.37-.058 4.041-.058zM10 0C7.284 0 6.944.012 5.877.06 4.813.11 4.086.278 3.45.525a4.9 4.9 0 00-1.772 1.153A4.9 4.9 0 00.525 3.45C.278 4.086.109 4.813.06 5.877.012 6.944 0 7.284 0 10s.012 3.056.06 4.123c.049 1.064.218 1.791.465 2.427a4.9 4.9 0 001.153 1.772 4.902 4.902 0 001.772 1.153c.636.247 1.363.416 2.427.465 1.067.048 1.407.06 4.123.06s3.056-.012 4.123-.06c1.064-.049 1.791-.218 2.427-.465a4.902 4.902 0 001.772-1.153 4.902 4.902 0 001.153-1.772c.247-.636.416-1.363.465-2.427.048-1.067.06-1.407.06-4.123s-.012-3.056-.06-4.123c-.049-1.064-.218-1.791-.465-2.427a4.902 4.902 0 00-1.153-1.772A4.902 4.902 0 0016.55.525C15.914.278 15.187.109 14.123.06 13.056.012 12.716 0 10 0z" fill="url(#a)" transform="translate(2 2)" />
+										</g>
+									</svg> </a>
+							</li>
+						</ul>
+						<ul class="footer__links">
+							<li>
+								<a href="#">Kontakty</a>
+							</li>
+							<li>
+								<a href="#">Podmínky použití webu</a>
+							</li>
+							<li>
+								<a href="#">Ochrana soukromí</a>
+							</li>
+						</ul>
+						<button id="scrollToTopBtn"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 20V4m0 0l-6 6m6-6l6 6" stroke="#FDD715" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" />
+							</svg></button>
+					</div>
+					<div class="copyright">
+						© FK Dukla Praha - All rights reserved & eSports s.r.o.
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<script defer src="js/scripts.js"></script>
+</body>
+
+</html>
