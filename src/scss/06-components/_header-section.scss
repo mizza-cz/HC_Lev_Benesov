@@ -1,0 +1,11 @@
+.header-section {
+  background-color: var(--color-blue-160);
+  padding: 52px 60px 38px;
+  border-radius: 16px 0 0 0;
+  @include media-breakpoint-down(lg){
+   border-radius: 16px 16px 0 0;
+  }
+  h1 {
+    color: var(--color-light);
+  }
+}
