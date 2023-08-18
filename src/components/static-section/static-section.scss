@@ -1,24 +1,31 @@
-.article-section {
+.static-section {
   margin-bottom: 80px;
   @include media-breakpoint-down(lg) {
     margin-bottom: 40px;
   }
-  .topstory__item {
-    border-radius: 16px 16px 0 0;
-    &::before {
+  .o-content {
+    border-radius: 16px 0 0 0;
+    @include media-breakpoint-down(lg) {
       border-radius: 16px 16px 0 0;
+    }
+  }
+  &__main {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    @include media-breakpoint-down(lg) {
+      padding-top: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
   }
   &__content {
     background-color: var(--color-light);
-    border-radius: 0 0 16px 16px;
+
     padding-bottom: 80px;
-    padding-top: 60px;
-    padding-left: 16px;
-    padding-right: 16px;
+    border-radius: 16px 0 0 0;
     @include media-breakpoint-down(lg) {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      border-radius: 16px 16px 0 0;
     }
   }
 }
