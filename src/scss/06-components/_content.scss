@@ -1,4 +1,86 @@
 .o-content {
+ 
+  .text-right {
+    text-align: right;
+  }
+  q {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 40px;
+    &::before {
+      content: "";
+      width: 4px;
+      height: 100%;
+      background-color: var(--color-blue-100);
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  ul {
+    color: rgba(0, 17, 15, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0px 0 24px;
+    > li {
+      position: relative;
+      padding-left: 24px;
+      &::before {
+        content: "";
+        background-color: var(--color-blue-100);
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      > ul {
+        margin: 16px 0 0;
+        > li {
+          &::before {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  h6 {
+    margin-bottom: 12px;
+  }
+  ol {
+    color: rgba(0, 17, 15, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin-bottom: 32px;
+    counter-reset: item;
+
+    > li {
+      counter-increment: item;
+      position: relative;
+      padding-left: 24px;
+      &::before {
+        content: counter(item) ".";
+        color: var(--color-dark);
+        font-weight: 400;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      > ol {
+        margin: 16px 0 0;
+        > li {
+          &::before {
+            content: counter(item) ".";
+          }
+        }
+      }
+    }
+  }
   &::after {
     display: table;
     clear: both;
@@ -9,6 +91,23 @@
   }
   > :last-child {
     margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 39px;
+    margin-bottom: 13px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 39px;
+    border-radius: 4px;
   }
 }
 
@@ -41,4 +140,43 @@
     font-size: 20px;
     line-height: 125%;
   }
+}
+.h4,
+.o-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.h5,
+.o-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.h6,
+.o-content h6 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.anotace {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.img-content {
+  width: auto !important;
+  padding-right: 32px;
+  float: left;
+  aspect-ratio: 448/279 !important;
+  @include media-breakpoint-down(lg) {
+    float: none;
+    max-width: 100%;
+    width: 100% !important;
+    padding-right: 0;
+  }
+}
+.table > :not(:first-child) {
+  border: none;
 }
