@@ -1,0 +1,14 @@
+.posts {
+  margin-top: 64px;
+  margin-bottom: 60px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 32px;
+    margin-top: 40px;
+  }
+  .h2 {
+    color: var(--color-blue-20);
+    span {
+      font-weight: 400;
+    }
+  }
+}
