@@ -1,0 +1,36 @@
+.juniors-section {
+  .header-section {
+    color: var(--color-light);
+    padding-left: 40px;
+    padding-right: 40px;
+    @include media-breakpoint-down(xxl) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    li:before {
+      top: 10px !important;
+      background-color: var(--color-yellow) !important;
+    }
+    a {
+      color: var(--color-light);
+      text-decoration-color: transparent;
+      &:hover {
+        text-decoration-color: inherit;
+      }
+    }
+  }
+  &__item {
+    background-color: var(--color-blue-140);
+    color: var(--color-light);
+    padding-top: 30px;
+    padding-left: 32px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    height: 100%;
+    @include media-breakpoint-down(md) {
+      padding: 16px;
+      padding-right: 16px;
+    }
+    border-radius: 0px 16px 0px 0px;
+  }
+}
