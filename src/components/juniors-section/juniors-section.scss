@@ -1,11 +1,19 @@
 .juniors-section {
+  button {
+    border: none;
+    cursor: pointer;
+  }
   .header-section {
     color: var(--color-light);
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 64px;
     @include media-breakpoint-down(xxl) {
       padding-left: 24px;
       padding-right: 24px;
+    }
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 40px;
     }
     li:before {
       top: 10px !important;
