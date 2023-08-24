@@ -51,13 +51,36 @@
     padding-bottom: 12px;
     white-space: nowrap;
   }
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    white-space: nowrap;
+  }
+  .lev {
+    td {
+      font-weight: 700;
+      background-color: var(--color-blue-100);
+      color: var(--color-light);
+    }
+  }
   td {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     padding-top: 10px;
     padding-bottom: 11px;
+
+    img {
+      display: inline-block;
+      width: 1.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
   }
+
   th,
   td {
     border-bottom: 1px solid var(--color-blue-20);
