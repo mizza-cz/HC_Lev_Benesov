@@ -1,0 +1,17 @@
+input {
+  border: 2px solid var(--color-dark);
+  padding: 0 24px;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--color-dark);
+  &::placeholder {
+    text-transform: uppercase;
+    color: var(--color-dark);
+    font-weight: 700;
+  }
+  &:target,
+  &:active,
+  &:focus {
+    outline-color: var(--color-light);
+  }
+}

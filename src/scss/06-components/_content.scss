@@ -1,4 +1,7 @@
 .o-content {
+  .table-responsive + .table-responsive {
+    margin-top: 32px !important;
+  }
   .text-right {
     text-align: right;
   }

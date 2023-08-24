@@ -1,0 +1,23 @@
+.statistics-section {
+  th,
+  td {
+    min-width: 50px;
+  }
+
+  th:first-child,
+  td:first-child {
+    text-align: center !important;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    max-width: 100%;
+    width: 100% !important;
+
+    a {
+      max-width: 100%;
+      width: 100% !important;
+      display: block;
+    }
+  }
+}

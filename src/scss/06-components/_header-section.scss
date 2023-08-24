@@ -4,9 +4,70 @@
   border-radius: 16px 0 0 0;
   @include media-breakpoint-down(lg) {
     border-radius: 16px 16px 0 0;
-    
+    adding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
+  }
+  &__submenu {
+    margin: 40px auto;
   }
   h1 {
     color: var(--color-light);
+    padding-right: 24px;
+    @include media-breakpoint-down(xxl) {
+      margin-bottom: 16px;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+  &__form {
+    flex-wrap: wrap;
+    .btn {
+      margin: 0 32px 0 8px;
+      display: block;
+      height: auto;
+      width: 80px;
+      @include media-breakpoint-down(sm) {
+        height: 34px;
+      }
+    }
+    label + label {
+      margin-left: 16px;
+    }
+    @include media-breakpoint-down(xxl) {
+      margin-left: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  &__btn {
+    @include media-breakpoint-down(xxl) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @include media-breakpoint-down(xxl) {
+      flex-wrap: wrap;
+    }
+    @include media-breakpoint-down(lg) {
+      align-items: start;
+    }
+    @include media-breakpoint-down(sm) {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  &__label {
+    display: block;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
   }
 }
