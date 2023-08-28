@@ -1,8 +1,9 @@
 .photogallery-section {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   margin-top: 24px;
   @include media-breakpoint-down(xl) {
     margin-top: 0px;
+    margin-bottom: 40px;
   }
   .static-section__content {
     border-radius: 16px;
