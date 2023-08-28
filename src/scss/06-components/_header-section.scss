@@ -10,6 +10,24 @@
     padding-right: 2.5rem;
     padding-bottom: 2rem;
   }
+  &__filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--color-light);
+    width: 100%;
+    background-color: var(--color-blue-160);
+    padding: 20px 0;
+    .active {
+      font-weight: 700;
+      text-decoration: none;
+    }
+    a {
+      padding: 0 8px;
+    }
+    li {
+    }
+  }
   &__submenu {
     margin: 40px auto;
   }

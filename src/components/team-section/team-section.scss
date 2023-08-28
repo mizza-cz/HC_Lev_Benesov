@@ -8,7 +8,7 @@
           text-decoration: underline;
         }
       }
-      .team-section__img {
+      a.team-section__img {
         img {
           opacity: 0.5;
         }
@@ -23,7 +23,8 @@
   &__info {
     padding: 14px 8px 5px;
     text-decoration-color: transparent;
-    a {
+    > div,
+    > a {
       font-weight: 700;
       font-size: 1.25rem;
       line-height: 1.4;
