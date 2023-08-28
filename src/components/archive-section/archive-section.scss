@@ -1,5 +1,14 @@
 .archive-section {
   .post h3 {
     color: var(--color-dark);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: all 0.3s;
+  }
+  .post {
+    text-decoration: none;
+  }
+  .post:hover h3 {
+    text-decoration-color: inherit;
   }
 }
