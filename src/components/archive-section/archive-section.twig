@@ -1,111 +1,105 @@
-<section class="static-section">
+<section class="archive-section">
   <div class="container">
-    <div class="row">
-      <div class="col-12 mb-10">
-        <div class="static-section__content">
-          <div class="header-section">
-            <div class="header-section__inner">
-              <h1 class="h1">Archiv článků</h1>
-              <div class="header-section__form ms-auto">
-                <label class="o-select header-section__label">
-                  <select class="js-select">
-                    <option>Všechny</option>
-                    <option value="tipsport">2020/21</option>
-                    <option value="tipsport">2019/20</option>
-                    <option value="tipsport">2018/19</option>
-                    <option value="tipsport">2017/18</option>
-                  </select>
-                </label>
-                <label class="o-select header-section__label">
-                  <select class="js-select">
-                    <option>Kategorie</option>
-                    <option value="tipsport">Kategorie 1</option>
-                    <option value="tipsport">Kategorie 2</option>
-                    <option value="tipsport">Kategorie 3</option>
-                    <option value="tipsport">Kategorie 4</option>
-                  </select>
-                </label>
-                <form class="g-5">
-                  <input placeholder="Hledaný text" type="text" />
-                  <button class="link link--blue">Hledat</button>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="static-section__main pt-13">
-            <div class="archive-section">
-              <div class="row list-posts gy-10">
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-                <li class="col-sm-6 col-xxl-4">
-                  {% include "@components/post/post.twig" %}
-                </li>
-              </div>
-              <button class="link link--yellow m-auto mt-10" id="loadMoreBtn">
-                Načíst další
-              </button>
-            </div>
+    <div class="static-section__content">
+      <div class="header-section">
+        <div class="header-section__inner">
+          <h1 class="h1">Archiv článků</h1>
+          <div class="header-section__form ms-auto">
+            <label class="o-select header-section__label">
+              <select class="js-select">
+                <option>Všechny</option>
+                <option value="tipsport">2020/21</option>
+                <option value="tipsport">2019/20</option>
+                <option value="tipsport">2018/19</option>
+                <option value="tipsport">2017/18</option>
+              </select>
+            </label>
+            <label class="o-select header-section__label">
+              <select class="js-select">
+                <option>Kategorie</option>
+                <option value="tipsport">Kategorie 1</option>
+                <option value="tipsport">Kategorie 2</option>
+                <option value="tipsport">Kategorie 3</option>
+                <option value="tipsport">Kategorie 4</option>
+              </select>
+            </label>
+            <form class="g-5">
+              <input placeholder="Hledaný text" type="text" />
+              <button class="link link--blue">Hledat</button>
+            </form>
           </div>
         </div>
+      </div>
+      <div class="static-section__main pt-13">
+        <div class="row list-posts gy-10">
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+          <li class="col-sm-6 col-xxl-4">
+            {% include "@components/post/post.twig" %}
+          </li>
+        </div>
+        <button class="link link--yellow m-auto mt-10" id="loadMoreBtn">
+          Načíst další
+        </button>
       </div>
     </div>
   </div>

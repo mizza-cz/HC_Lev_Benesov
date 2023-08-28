@@ -1,4 +1,14 @@
 .photogallery-section {
+  margin-bottom: 40px;
+  margin-top: 24px;
+  @include media-breakpoint-down(xl) {
+    margin-top: 0px;
+  }
+  .static-section__content {
+    border-radius: 16px;
+    overflow: hidden;
+    padding-bottom: 40px;
+  }
   .topstory__item {
     aspect-ratio: 460/460;
     &::before {
