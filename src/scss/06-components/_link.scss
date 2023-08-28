@@ -9,6 +9,8 @@
   text-decoration: none;
   transition: all 0.3s;
   width: fit-content;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 .link--dark {
   background-color: var(--color-blue-180);
@@ -34,5 +36,6 @@
   &:hover {
     color: var(--color-dark);
     background-color: var(--color-light);
+    border: 1px solid var(--color-blue-180);
   }
 }
