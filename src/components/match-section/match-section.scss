@@ -1,0 +1,36 @@
+.match-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 0.0625rem solid var(--color-blue-100);
+  &__box {
+    border-bottom: 0.0625rem solid var(--color-blue-100);
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    p {
+      margin-bottom: 0;
+    }
+    p + p {
+      margin-top: 16px;
+    }
+  }
+  .matches-section__item {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+  }
+  .matches-section__score span {
+    color: var(--color-blue-180);
+    font-size: 32px;
+  }
+  .matches-section__info .h4 {
+    margin: 0;
+  }
+  .matches-section__list {
+    margin-bottom: 0;
+  }
+  .matches-section__list li {
+    padding-left: 0;
+    &::before {
+      display: none;
+    }
+  }
+}
