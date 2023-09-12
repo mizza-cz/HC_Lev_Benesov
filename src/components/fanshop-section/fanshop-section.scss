@@ -1,0 +1,65 @@
+.fanshop-section {
+  .static-section__main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &__inner {
+    table {
+      tr {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      td {
+        max-width: 33.333%;
+        flex: 0 0 33.333%;
+        padding: 0 16px;
+        background-color: var(--color-light);
+        margin-bottom: 32px;
+        @include media-breakpoint-only(lg) {
+          max-width: 50%;
+          flex: 0 0 50%;
+        }
+        @include media-breakpoint-only(md) {
+          max-width: 50%;
+          flex: 0 0 50%;
+        }
+        @include media-breakpoint-down(md) {
+          max-width: 100%;
+          flex: 100%;
+        }
+      }
+      img {
+        width: 100%;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 24px;
+        transition: all 0.3s;
+        aspect-ratio: 260/240;
+      }
+    }
+  }
+  &__price {
+    display: block;
+  }
+  &__product {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-blue-5);
+    text-decoration: none;
+    border-radius: 12px;
+    color: var(--color-dark) !important;
+    height: 100%;
+    justify-content: flex-end;
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+    }
+  }
+  tbody {
+  }
+}
